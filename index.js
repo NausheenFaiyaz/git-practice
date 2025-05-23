@@ -1,9 +1,9 @@
 const age = 21;
-const name1 = "Nausheen Faiyaz";
+const name = "Nausheen Faiyaz";
 const dob = "29/05/2004";
 
 function sayName() {
-  console.log("My Name is " + name1);
+  console.log("My Name is " + name);
 }
 
 function isAbove18() {
@@ -12,4 +12,8 @@ function isAbove18() {
 
 function newFn() {
   console.log("Hey I am a new fn");
+}
+
+function newFeatureAdd() {
+  console.log("This is a new feat");
 }
